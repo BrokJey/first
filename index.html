@@ -3,51 +3,73 @@
     <head>
         <title>Резюме</title>
         <meta charset="UTF-8">
+        <meta name="author" content="Данил">
     </head>
     <body>
-        <h1>Данил Минка</h1>
-        <strong>Программист</strong>
-        <br>
-        <img src="photo.jpg" height="200px" width="200px" alt=""/>
+        <header>
+            <h1>Данил Минка</h1>
+            <strong>Программист</strong>
+            <br>
+            <img src="photo.jpg" height="200px" width="200px" alt=""/>
+        </header>
+
         <hr>
 
-        <h2><i>Сводка</i></h2>
-        <p>Начинающий веб-разработчик и программист любитель с больший опытом.</p>
+        <article>
+            <section id="about">
+                <h2><i>Сводка</i></h2>
+                <p>Начинающий веб-разработчик и программист любитель с больший опытом.</p>
+            </section>
 
-        <h2><i>Опыт</i></h2>
-        <ul>
-            <li><b>C++</b>
-                <p>Разработка сортировки объектов и базы данных</p>
-            </li>
-            <li><b>Snake game</b>
-                <p>Разработка игры змейки на движке unity</p>
-            </li>
-        </ul>
+            <section id="expirience">
+            <h2><i>Опыт</i></h2>
+            <ul>
+                <li><b>C++</b>
+                    <p>Разработка сортировки объектов и базы данных</p>
+                </li>
+                <li><b>Snake game</b>
+                    <p>Разработка игры змейки на движке unity</p>
+                </li>
+            </ul>
+            </section>
 
-        <h2><i>Навыки</i></h2>
-        <table border="1">
-            <tr>
-            <th><b>Технологии</b></th>
-            <td>C++</td>
-            <td>Unity</td>
-            </tr>
-            <th><b>Умения</b></th>
-            <td>Базы данных</td>
-            <td>Командная работа</td>
-        </table>
+            <section id="skils">
+                <h2><i>Навыки</i></h2>
+                <table border="1">
+                    <tr>
+                    <th><b>Технологии</b></th>
+                    <td>C++</td>
+                    <td>Unity</td>
+                    </tr>
+                    <th><b>Умения</b></th>
+                    <td>Базы данных</td>
+                    <td>Командная работа</td>
+                </table>
+            </section>
 
-        <h2><i>Контакты</i></h2>
-        <a href="https://t.me/Brok_Jey" target="_blank">Telegram</a>
-        <a href="https://vk.com/br0k_jey" target="_blank">VK</a>
-        <a href="https://github.com/BrokJey" target="_blank">GitHub</a>
+            <section id="level">
+                <h2><i>Уровень</i></h2>
+                Junior <progress min="0" max="5" value="1"></progress> Senior
+            </section>
+        </article>
 
-        <h2><i>Напишите мне сообщение</i></h2>
-        <form>
-            <input placeholder="Имя"/><br>
-            <input placeholder="Эл. Почта"/><br>
-            <textarea placeholder="Сообщение" required></textarea><br>
-            <input type="submit" value="Отправить"/>
-        </form>
+        <section>
+            <h2><i>Напишите мне сообщение</i></h2>
+            <form>
+                <input placeholder="Имя"/><br>
+                <input placeholder="Эл. Почта"/><br>
+                <textarea placeholder="Сообщение" required></textarea><br>
+                <input type="submit" value="Отправить"/>
+            </form>
+        </section>
+
+        <footer>
+            <h2><i>Контакты</i></h2>
+            <a href="https://t.me/Brok_Jey" target="_blank" role="button">Telegram</a>
+            <a href="https://vk.com/br0k_jey" target="_blank">VK</a>
+            <a href="https://github.com/BrokJey" target="_blank">GitHub</a>
+            <a href="test.html" target="">Test</a>
+        </footer>
     </body>
 </html>
 
