@@ -4,72 +4,80 @@
         <title>Резюме</title>
         <meta charset="UTF-8">
         <meta name="author" content="Данил">
+        <link rel="stylesheet" href="css/main.css"
     </head>
     <body>
-        <header>
-            <h1>Данил Минка</h1>
-            <strong>Программист</strong>
-            <br>
-            <img src="photo.jpg" height="200px" width="200px" alt=""/>
-        </header>
+        <div class="title">
+            <header>
+                <br><br><br>
+                <div id="avatar">
+                    <img src="images/photo.jpg" height="200px" width="200px" alt=""/>
+                </div>
+                <h1 class="name" margin-bottom>Данил Минка</h1>
+                <h2 class="center">Программист</h2>
+                <br><br>
+            </header>
+        </div>
 
         <hr>
 
-        <article>
-            <section id="about">
-                <h2><i>Сводка</i></h2>
-                <p>Начинающий веб-разработчик и программист любитель с больший опытом.</p>
+        <div class="text">
+            <article>
+                <section id="about">
+                    <h2>Специализации</h2>
+                    <p>Разработчик, программист</p>
+                </section>
+
+                <section id="expirience">
+                    <h2>Опыт</h2>
+                    <details>
+                        <summary><b>Snake game</b></summary>
+                        Разработка игры змейки на движке unity <br><br>
+                        <img src="images/snake1.png" height="215" width="383"/>
+                        <img src="images/snake2.png" height="215" width="383"/>
+                        <img src="images/snake3.png" height="215" width="383"/>
+                    </details>
+                    
+                
+                </section>
+
+                <section id="skills">
+                    <h2>Навыки</h2>
+                    <h3>Языки</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>HTML5</li>
+                    </ul>
+                    <h3>Фреймворки</h3>
+                    <ul>
+                        <li>Unity</li>
+                    </ul>
+                </section>
+
+                <section id="level">
+                    <h2>Уровень</h2>
+                    Junior <progress min="0" max="5" value="1"></progress> Senior
+                </section>
+            </article>
+
+            <section>
+                <h2>Напишите мне сообщение</h2>
+                <form>
+                    <input placeholder="Имя"/><br>
+                    <input placeholder="Эл. Почта"/><br>
+                    <textarea placeholder="Сообщение" required></textarea><br>
+                    <input type="submit" value="Отправить"/>
+                </form>
             </section>
 
-            <section id="expirience">
-            <h2><i>Опыт</i></h2>
-            <ul>
-                <li><b>C++</b>
-                    <p>Разработка сортировки объектов и базы данных</p>
-                </li>
-                <li><b>Snake game</b>
-                    <p>Разработка игры змейки на движке unity</p>
-                </li>
-            </ul>
-            </section>
-
-            <section id="skils">
-                <h2><i>Навыки</i></h2>
-                <table border="1">
-                    <tr>
-                    <th><b>Технологии</b></th>
-                    <td>C++</td>
-                    <td>Unity</td>
-                    </tr>
-                    <th><b>Умения</b></th>
-                    <td>Базы данных</td>
-                    <td>Командная работа</td>
-                </table>
-            </section>
-
-            <section id="level">
-                <h2><i>Уровень</i></h2>
-                Junior <progress min="0" max="5" value="1"></progress> Senior
-            </section>
-        </article>
-
-        <section>
-            <h2><i>Напишите мне сообщение</i></h2>
-            <form>
-                <input placeholder="Имя"/><br>
-                <input placeholder="Эл. Почта"/><br>
-                <textarea placeholder="Сообщение" required></textarea><br>
-                <input type="submit" value="Отправить"/>
-            </form>
-        </section>
-
-        <footer>
-            <h2><i>Контакты</i></h2>
-            <a href="https://t.me/Brok_Jey" target="_blank" role="button">Telegram</a>
-            <a href="https://vk.com/br0k_jey" target="_blank">VK</a>
-            <a href="https://github.com/BrokJey" target="_blank">GitHub</a>
-            <a href="test.html" target="">Test</a>
-        </footer>
+            <footer>
+                <h2>Соц. сети</h2>
+                <a href="https://t.me/Brok_Jey" target="_blank" role="button"><img src="images/Telegram_img.png" height="40px" width="40px" alt="Telegram"/></a>
+                <a href="https://vk.com/br0k_jey" target="_blank"><img src="images/VK_img.png" height="40px" width="40px" alt="VK"/></a>
+                <a href="https://github.com/BrokJey" target="_blank"><img src="images/Github_img.png" height="40px" width="40px" alt="Github"/></a>
+            </footer>
+        </div>
     </body>
 </html>
 

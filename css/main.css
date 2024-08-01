@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to bottom right, rgb(100, 48, 0), 5%, rgb(0, 0, 0), 95%, rgb(100, 0, 0));
+}
+
+.text{
+    color: white; 
+    /*margin-left: 45%;*/
+    text-align: center;
+}
+
+.name {
+    font-size: 4rem;
+    margin-left: -9%;
+}
+
+.title {
+    color: white; 
+    margin-left: 45%;
+}
+
+.center {
+    margin-right: 80%;
+    text-align: center;
+    margin-bottom: -1rem;
+    font-size: 2rem;
+}
+
+#avatar {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 0%;
+}
