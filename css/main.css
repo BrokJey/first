@@ -1,33 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu+Condensed&display=swap');
+
 body {
-    background: linear-gradient(to bottom right, rgb(100, 48, 0), 5%, rgb(0, 0, 0), 95%, rgb(100, 0, 0));
+    background: linear-gradient(to bottom right, rgb(100, 48, 0), 15%, rgb(0, 0, 0), 85%, rgb(100, 0, 0));
 }
 
-.text{
-    color: white; 
-    /*margin-left: 45%;*/
+#avatar {
     text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 45%;
 }
 
 .name {
-    font-size: 4rem;
-    margin-left: -9%;
+    color: white; 
+    text-align: center;
+    font-size: 50px;
+    font-family: "Piazzolla", serif;
 }
 
 .title {
     color: white; 
-    margin-left: 45%;
-}
-
-.center {
-    margin-right: 80%;
     text-align: center;
-    margin-bottom: -1rem;
-    font-size: 2rem;
+    font-size: 30px;
+    font-family: "Piazzolla", serif;
+    margin-top: -10px;
 }
 
-#avatar {
-    display: inline-block;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-left: 0%;
+.block1 {
+    background: rgb(17, 17, 17);
+    border: 7px solid rgb(58, 58, 58);
+    border-radius: 15px;
+    height: 120px;
+    width: 400px;
+    color: white; 
+    text-align: center;
+    font-size: 30px;
+    font-family: "Piazzolla", serif;
+    margin-top: 80px;
+    margin-left: 40%;
 }
+.text1 {
+    margin-top: 0px;
+}
+
+.block2 {
+    background: rgb(17, 17, 17);
+    border: 7px solid rgb(58, 58, 58);
+    border-radius: 15px;
+    height: auto;
+    width: 1250px;
+    color: white; 
+    text-align: center;
+    font-size: 30px;
+    font-family: "Piazzolla", serif;
+    margin-top: 80px;
+    margin-left: 17%;
+}
+.text2 {
+    margin-top: 5px;
+}
+
+.block3 {
+    background: rgb(17, 17, 17);
+    border: 7px solid rgb(58, 58, 58);
+    border-radius: 15px;
+    height: auto;
+    width: 400px;
+    color: white; 
+    font-size: 30px;
+    font-family: "Piazzolla", serif;
+    margin-top: 80px;
+    margin-left: 40%;
+}
+.text3 {
+    margin-top: 5px;
+}
+li {
+    margin-left: -40%;
+
+}
+
+.block4 {
+    background: rgb(17, 17, 17);
+    border: 7px solid rgb(58, 58, 58);
+    border-radius: 15px;
+    height: auto;
+    width: 600px;
+    color: white; 
+    text-align: center;
+    font-size: 30px;
+    font-family: "Piazzolla", serif;
+    margin-top: 80px;
+    margin-left: 35%;
+}
+.text4{
+    margin-top: 5px;
+}
+
+h2 {
+    color: white; 
+    text-align: center;
+    font-size: 30px;
+    font-family: "Piazzolla", serif;
+    margin-top: 80px;
+}
+
+.text_title {
+    color: white; 
+    text-align: center;
+    font-size: 25px;
+    font-family: "Piazzolla", serif;
+}
+
+.text {
+    color: white; 
+    text-align: center;
+    font-size: 20px;
+    font-family: "Piazzolla", serif;
+}
+
+.list {
+    color: white; 
+    margin-left: 47%;
+    font-size: 20px;
+    font-family: "Piazzolla", serif;
+}
+
+input {
+    border-radius: 15px;
+    color: white;
+    background: rgb(27, 27, 27);
+}
+textarea {
+    border-radius: 15px;
+    color: white;
+    background: rgb(27, 27, 27);
+}
+.but {
+    width: 6em;
+    height: 3em;
+}
+
+.images {
+    text-align: center;
+}
+
